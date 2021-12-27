@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font awesome file link  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./static/sty.css" />
+
+    <title>Welcome to Tinkerhub CE Knpy</title>
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="#" class="logo">
+        <img class="lo" src="./static/logocek.svg" alt="logo"
+      /></a>
+
+      <div class="fas fa-bars"></div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#service">events</a></li>
+          <li><a href="#service">upcomming events</a></li>
+          <li><a href="#team">team</a></li>
+          <li><a href="#contact">contact</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section id="home" class="home">
+      <h1 class="hd-head">Workshop</h1>
+    </section>
+    <center><h1>About Event</h1></center>
+    <p class="head-wo">
+      Hola peeps...😃 Want to build an amazing personal portfolio website? But
+      don't know how to build it and a beginner right ? Don't worry TINKERHUB
+      CEKNPY is officially announcing our first offline hands on bootcamp on web
+      development with portfolio making And what more it's completely free❗❗
+      📅Date : 25th Nov - Dec 1 (5 days) 🕓Time : 4:00 pm - 5:00 pm 👩‍💻Venue : PG
+      project lab, Administrative block Our resource person and mentors will be
+      Vishun S, S5 CSE and Devadut S Balan, S5 ECE <br />
+      If that sounds great then do register only 20 limited seats
+    </p>
+
+    <section id="contact" class="contact">
+      <h1 class="heading">Make your portfolio Website</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="./static/assets/images/pwm.jpeg" alt="" />
+        </div>
+
+        <div class="form-container">
+          <form action="submit_form" method="post">
+            <div class="inputBox">
+              <input
+                name="firstname"
+                type="text"
+                placeholder="first name"
+                required
+              />
+              <input
+                name="lastname"
+                type="text"
+                placeholder="last name"
+                required
+              />
+            </div>
+
+            <input name="sem" type="text" placeholder="Semester" required />
+            <input name="dept" type="text" placeholder="Department" required />
+
+            <input
+              name="num"
+              type="number"
+              placeholder="Whasapp number"
+              required
+            />
+            <textarea
+              name="txt"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Anything wants to add ?"
+            ></textarea>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
